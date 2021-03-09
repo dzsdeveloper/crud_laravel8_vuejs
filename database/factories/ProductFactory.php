@@ -25,8 +25,6 @@ class ProductFactory extends Factory
             'name' => $this->faker->name,
             'description' => $this->faker->paragraph(),
             'price' => $this->faker->randomFloat(4, 0, 9999),
-            'created_at' => $this->faker->dateTimeBetween('-30 years', 'now'),
-            'updated_at' => $this->faker->dateTimeBetween('-30 years', 'now')
         ];
     }
 }
