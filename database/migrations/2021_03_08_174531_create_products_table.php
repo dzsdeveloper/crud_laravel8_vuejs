@@ -18,8 +18,7 @@ class CreateProductsTable extends Migration
             $table->string('name', 100);
             $table->text('description')->nullable();
             $table->decimal('price', 10, 4);
-            $table->dateTime('created_at');
-            $table->dateTime('updated_at');
+            $table->timestamps();
         });
     }
 
