@@ -8,9 +8,9 @@
         openModal();
       "
       type="button"
-      class="btn btn-primary"
+      class="btn btn-lg btn-primary mb-3"
     >
-      Nuevo
+      Añadir producto
     </button>
 
     <!-- The Modal -->
